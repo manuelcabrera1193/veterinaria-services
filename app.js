@@ -6,6 +6,6 @@ require('./routes')(app);
 
 
 // Iniciar servidor
-app.listen(3000, () => {
-    console.log('Servidor iniciado en el puerto 3000');
+app.listen(8080, () => {
+    console.log('Servidor iniciado en el puerto 8080');
 });
